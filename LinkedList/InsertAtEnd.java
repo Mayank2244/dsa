@@ -48,6 +48,7 @@ public class InsertAtEnd {
         display(head);
         head=InsertAtEnd(head,4);
         display(head);
+    InsertAtEnd l=new InsertAtEnd();
 
 
 
