@@ -1,0 +1,46 @@
+package codeforces;
+
+import java.util.Scanner;
+
+public class FriendlyNumbers {
+
+    // Function to calculate the sum of digits
+    public static int digitSum(long num) {
+        int sum = 0;
+
+        while (num > 0) {
+            sum += num % 10;
+            num /= 10;
+        }
+
+        return sum;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        while (t > 0) {
+
+            long x = sc.nextLong();
+            int count = 0;
+
+            // Check all possible values of y
+            for (long y = x; y <= x + 90; y++) {
+
+                if (y - digitSum(y) == x) {
+                    count++;
+                }
+
+            }
+
+            System.out.println(count);
+
+            t--;
+        }
+
+        sc.close();
+    }
+}
