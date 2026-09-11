@@ -1,0 +1,26 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Java
+*.class
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+package.json
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
