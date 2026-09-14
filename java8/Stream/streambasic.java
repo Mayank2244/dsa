@@ -1,5 +1,5 @@
 
-package java8;
+package java8.Stream;
 /*Java Stream
         API
         - Java Stream API is used to operate on the source data structure (collection/array) and

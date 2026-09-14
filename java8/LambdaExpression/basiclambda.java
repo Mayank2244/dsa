@@ -1,4 +1,4 @@
-package java8.Stream;
+package java8.LambdaExpression;
 interface add {
     int addition(int a,int b);
 

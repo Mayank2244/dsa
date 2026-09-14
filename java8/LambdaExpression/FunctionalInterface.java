@@ -1,5 +1,5 @@
 //Interface having exactly one abstract method.
-package java8;
+package java8.LambdaExpression;
 interface absfun{
     void fun(int x);
     default void normalfun(){
