@@ -12,7 +12,7 @@ how fuel injection works.
 Ways to acheive abstractions
 -> two way to implement abstraction
 1. by Abstract class--> its a partial abstraction
-2. by interface
+2. by interface-->
 
 
 For doing the working of the abstraction class follow

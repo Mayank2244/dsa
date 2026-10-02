@@ -11,10 +11,33 @@ and allow a class to implement multiple interface
 
  */
 package OOPS.Abstraction;
-interface Vechile{
-    void eat(){
-        System.out.println("Animal is eating");
+
+import java.util.Vector;
+
+interface Vehicle{
+   void start();
+}
+class car implements Vehicle{
+
+    @Override
+    public void start() {
+        System.out.println("car start with key");
+
     }
 }
-public class basicInterAnimal {
+class bike implements Vehicle{
+
+    @Override
+    public void start() {
+        System.out.println("bike start with kick and slef start");
+    }
+}
+
+public class basicInterVehicle {
+    public static void main(String[] args) {
+        car c=new car();
+        c.start();
+        bike b=new bike();
+        b.start();
+    }
 }
